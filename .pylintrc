@@ -1,0 +1,16 @@
+# .pylintrc
+
+[MASTER]
+# Don’t lint tests/ at all
+ignore = tests
+
+[MESSAGES CONTROL]
+# Disable just these checks everywhere
+disable =
+    C0303,  # trailing-whitespace
+    C0304,  # missing-final-newline
+    C0114,  # missing-module-docstring
+    C0116,  # missing-function-docstring
+    C0103,  # invalid-name
+    E1101,  # no-member
+    W0611   # unused-import
