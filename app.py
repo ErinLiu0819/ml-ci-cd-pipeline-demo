@@ -1,4 +1,3 @@
-
 from fastapi import FastAPI
 from pydantic import BaseModel  # 用于定义请求数据模型
 import joblib
