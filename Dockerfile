@@ -1,4 +1,6 @@
-FROM --platform=linux/amd64 python:3.9-slim
+# --platform=linux/amd64 
+FROM python:3.9
+
 WORKDIR /app
 
 # 先复制所有文件到容器中
